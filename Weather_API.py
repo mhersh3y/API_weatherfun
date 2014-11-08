@@ -74,7 +74,7 @@ BASE_URL = 'http://api.wunderground.com/api/db2b844797b8ee66/forecast/q'
 
 # j = r.json()
 
-# forecasting = j['forecast']['simpleforecast']['forecastday']['date']['weekday'] hohnononono... we in list mode now, son!
+# forecasting = j['forecast']['simpleforecast']['forecastday']['date']['weekday'] list mode
 
 def get_api_url(state, city):
     city = city.replace(" ", "_")
