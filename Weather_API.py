@@ -4,7 +4,7 @@ from pprint import pprint
 import random
 
 
-# r = requests.get('http://api.wunderground.com/api/db2b844797b8ee66/conditions/q/CA/San_Francisco.json')
+# r = requests.get('http://api.wunderground.com/api/[key_goes_here]/conditions/q/CA/San_Francisco.json')
 
 # print r.status_code
 # print r.json()
