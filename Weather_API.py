@@ -1,6 +1,3 @@
-# had to do this SUDO install
-# source venv/bin/activate
-# pip freeze - makes sure you are in the venv
 
 import requests
 from pprint import pprint
@@ -33,7 +30,7 @@ import random
 
 # def weather(state,city):
 # 	city = city.replace(" ", "_")
-# 	concatenate = 'http://api.wunderground.com/api/db2b844797b8ee66/conditions/q/' + state + '/' + city + '.json'
+# 	concatenate = 'http://api.wunderground.com/api/[KEYGOESHERE]/conditions/q/' + state + '/' + city + '.json'
 # 	# print concatenate
 # 	r =requests.get(concatenate)
 # 	# print r.status_code
@@ -66,8 +63,8 @@ import random
 #
 ######################################
 
-BASE_URL = 'http://api.wunderground.com/api/db2b844797b8ee66/forecast/q'
-# r = requests.get('http://api.wunderground.com/api/db2b844797b8ee66/forecast/q/CA/San_Francisco.json')
+BASE_URL = 'http://api.wunderground.com/api/[Key_goes_here]/forecast/q'
+# r = requests.get('http://api.wunderground.com/api/[key_goes_here]/forecast/q/CA/San_Francisco.json')
 
 # print r.status_code
 # print r.json()
